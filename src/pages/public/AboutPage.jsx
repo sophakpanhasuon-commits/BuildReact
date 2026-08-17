@@ -1,4 +1,3 @@
-
 import { Target, Eye, HeartHandshake } from 'lucide-react';
 
 const VALUES = [
@@ -38,7 +37,7 @@ export default function AboutPage() {
 
       <section className="section" style={{ background: 'var(--surface)' }}>
         <div className="container grid grid-2" style={{ alignItems: 'center' }}>
-          <img src="..\BusinessAboutPage.png" alt="AboutPhoto" 
+          <img src="https://img.freepik.com/premium-photo/business-people-meeting-discusion-generative-ai_1002555-811.jpg" alt="AboutPhoto" 
             style={{ height: 320, borderRadius: 'var(--radius-lg)', background:'linear-gradient(135deg, var(--primary), var(--secondary))' }}/>
           <div>
             <span className="eyebrow">Our Story</span>

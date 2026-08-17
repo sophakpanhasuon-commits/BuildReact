@@ -1,4 +1,3 @@
-
 import { createCrudService } from './firestoreCrud';
 
 const crud = createCrudService('products');

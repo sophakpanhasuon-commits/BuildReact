@@ -1,8 +1,3 @@
-// FILE: src/utils/validation.js
-// Purpose: Reusable frontend validation functions.
-// Used by: LoginPage, RegisterPage, ForgotPasswordPage, ContactPage,
-//          ServiceForm, ProductForm (admin).
-
 export function isValidEmail(email) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(email || '').trim());
 }

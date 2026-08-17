@@ -1,4 +1,3 @@
-
 import { Routes, Route, Navigate } from 'react-router-dom';
 import PublicLayout from '../components/layout/PublicLayout';
 import AdminLayout from '../components/admin/AdminLayout';

@@ -1,7 +1,3 @@
-// FILE: src/utils/errorMessages.js
-// Purpose: Translate raw Firebase error codes into safe, user-friendly messages.
-// Used by: authService.js, and any component that catches Firebase errors directly.
-
 const AUTH_ERROR_MESSAGES = {
   'auth/email-already-in-use': 'An account with this email already exists.',
   'auth/invalid-email': 'Please enter a valid email address.',

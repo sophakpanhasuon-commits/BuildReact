@@ -1,6 +1,3 @@
-// FILE: src/utils/formatters.js
-// Purpose: Small display-formatting helpers reused across pages/components.
-
 export function formatDate(timestamp) {
   if (!timestamp) return '—';
   const date = timestamp?.toDate ? timestamp.toDate() : new Date(timestamp);

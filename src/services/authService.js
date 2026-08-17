@@ -1,4 +1,3 @@
-
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
@@ -12,12 +11,6 @@ import { auth, db } from '../config/firebase';
 import { getAuthErrorMessage } from '../utils/errorMessages';
 
 const USERS_COLLECTION = 'users';
-
-/**
- * Registers a new user with Firebase Auth, then creates the matching
- * users/{uid} Firestore document with role "user" (never "admin" —
- * admin promotion must happen from the Firebase console / a trusted backend).
- */
 export async function registerUser({ name, email, password }) {
   try {
     const credential = await createUserWithEmailAndPassword(auth, email, password);

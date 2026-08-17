@@ -1,4 +1,3 @@
-
 import { doc, updateDoc } from 'firebase/firestore';
 import { db } from '../config/firebase';
 import { createCrudService } from './firestoreCrud';
@@ -10,7 +9,6 @@ export const listMessages = crud.list;
 export const getMessage = crud.getById;
 export const deleteMessage = crud.remove;
 
-/** Public contact form submissions are always created unread. */
 export async function submitMessage(payload) {
   return crud.create({ ...payload, isRead: false });
 }

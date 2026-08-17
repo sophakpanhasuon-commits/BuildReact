@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Compass } from 'lucide-react';
 import Button from '../../components/common/Button';

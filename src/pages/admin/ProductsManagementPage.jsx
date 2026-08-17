@@ -1,4 +1,3 @@
-
 import { useEffect, useMemo, useState } from 'react';
 import { Plus, Pencil, Trash2 } from 'lucide-react';
 import { listProducts, createProduct, updateProduct, deleteProduct } from '../../services/productService';

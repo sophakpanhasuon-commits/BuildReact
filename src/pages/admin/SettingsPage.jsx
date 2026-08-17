@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import { doc, getDoc, setDoc, serverTimestamp } from 'firebase/firestore';
 import { updateProfile } from 'firebase/auth';

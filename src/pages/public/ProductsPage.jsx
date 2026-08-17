@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import { Package } from 'lucide-react';
 import { listProducts } from '../../services/productService';

@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { MapPin, Phone, Mail, CheckCircle2 } from 'lucide-react';
 import Input from '../../components/common/Input';
@@ -11,7 +10,7 @@ const initialValues = { name: '', email: '', phone: '', subject: '', message: ''
 export default function ContactPage() {
   const [values, setValues] = useState(initialValues);
   const [errors, setErrors] = useState({});
-  const [status, setStatus] = useState('idle'); // idle | loading | success | error
+  const [status, setStatus] = useState('idle');
   const [formError, setFormError] = useState('');
 
   function handleChange(e) {
