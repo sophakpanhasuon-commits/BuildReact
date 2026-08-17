@@ -5,7 +5,7 @@ import AppRoutes from './routes/AppRoutes';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/BuildReact">
+    <BrowserRouter>
       <AuthProvider>
         <ToastProvider>
           <AppRoutes />
